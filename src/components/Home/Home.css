@@ -1,0 +1,28 @@
+.custom {
+    height: 500px;
+    text-align: center;
+    background-image: url('../img/bannerbackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    margin-left: -80px;
+    margin-right: -50px;
+}
+
+.custom0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom1 {
+    width: 400px;
+}
+
+.custom2 {
+    margin-left: -30px;
+}
