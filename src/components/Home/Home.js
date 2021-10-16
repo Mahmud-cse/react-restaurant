@@ -13,13 +13,8 @@ const Home = () => {
                         <h2>Search Your Most Favourite Food Over Here</h2>
                         <div className="mt-3 custom0">
                             <Form className="d-flex">
-                                <div className="rounded-pill custom1">
-                                    <FormControl
-                                      type="search"
-                                      placeholder="Search"
-                                      className="rounded-pill"
-                                      aria-label="Search"
-                                    />
+                                <div className=" custom1">
+                                <Form.Control className="rounded-pill" type="email" placeholder="Enter email" />
                                 </div>
                                 <Button variant="danger" className="rounded-pill custom2">Search</Button>
                               </Form>

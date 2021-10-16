@@ -4,6 +4,8 @@ import img1 from '../img/Other/first.png';
 import img2 from '../img/Other/second.png';
 import img3 from '../img/Other/third.png';
 import icon1 from '../img/ICON/Group204.png';
+import icon2 from '../img/ICON/Group1133.png';
+import icon3 from '../img/ICON/Group245.png';
 
 const About = () => {
     return (
@@ -17,7 +19,7 @@ const About = () => {
                     <br />
                     <br />
                     <div className="d-flex justify-content-center justify-content-evenly">
-                    <Card className="border-0" style={{ width: '25rem' }}>
+                    <Card className="border-0 rounded-3" style={{ width: '25rem' }}>
                         <Card.Img variant="top" src={img1} />
                           <Card.Body className="d-flex">
                             <Row>
@@ -36,7 +38,7 @@ const About = () => {
                           <Card.Body className="d-flex">
                             <Row>
                               <Col lg={2}>
-                              <img src={icon1} alt=""  style={{width:"40px",height:"40px"}}/>
+                              <img src={icon2} alt=""  style={{width:"40px",height:"40px"}}/>
                               </Col>
                               <Col lg={10} style={{marginLeft:"0px"}}>
                                 <Card.Title>Fast Delivery</Card.Title>
@@ -50,7 +52,7 @@ const About = () => {
                           <Card.Body className="d-flex">
                             <Row>
                               <Col lg={2}>
-                              <img src={icon1} alt=""  style={{width:"40px",height:"40px"}}/>
+                              <img src={icon3} alt=""  style={{width:"40px",height:"40px"}}/>
                               </Col>
                               <Col lg={10} style={{marginLeft:"0px"}}>
                                 <Card.Title>Fast Delivery</Card.Title>

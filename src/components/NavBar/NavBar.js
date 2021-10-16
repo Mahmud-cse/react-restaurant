@@ -1,7 +1,7 @@
 import React from 'react';
 import {Button, Container, Nav, Navbar, Stack } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import image from '../img/logo.png'
+import image from '../img/logo2.png'
 import './NavBar.css';
 
 const NavBar = () => {
@@ -22,7 +22,7 @@ const NavBar = () => {
         //       </Navbar>
         // </div>
         <div>
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar className="fixed-top" style={{backgroundColor:"#FCF4E0"}}  collapseOnSelect expand="lg">
           {/* container */}
           <Container>
           <Navbar.Brand href="/home">
@@ -39,14 +39,14 @@ const NavBar = () => {
               {/* stack */}
             <Stack direction="horizontal" gap={3}>
             <i class="fas fa-shopping-cart"></i>
-                <NavLink to="/login" className="f-13"   activeStyle={{
+                <NavLink to="/login" className="f-13" style={{color:"black"}}   activeStyle={{
                   fontWeight: "bold",
-                  color: "white"
+                  color: "black"
                 }}>Login</NavLink>
                 <NavLink to="/signup" className="f-13"   activeStyle={{
                   color: "white"
                 }}>
-                     <Button variant="danger" className="rounded-pill">Sign Up</Button>
+                     <Button variant="dark" className="rounded-pill">Sign Up</Button>
                 </NavLink>
             </Stack>
             </Nav>
