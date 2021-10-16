@@ -4,7 +4,7 @@ import './SignUp.css';
 
 const SignUp = () => {
     return (
-        <div id="signup" className="container customSignUp mb-5">
+        <div id="signupSection" className="container customSignUp mb-5">
         <div>
         <form className="p-5" id="customLogin3">
                 <h3>Register</h3>

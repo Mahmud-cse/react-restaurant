@@ -1,0 +1,147 @@
+[
+    {
+        "idMeal": "1",
+        "image":"img/Breakfast/breakfast1.png",
+        "strMeal": "Bagel and cream cheese",
+        "strCategory":"breakfast",
+        "strPrice":"6.99$",
+        "strInstructions": "Take a large pot or wok, big enough to cook all the chicken, and heat the oil in it. Once the oil is hot, add sliced onion and fry them."
+    },
+    {
+        "idMeal": "2",
+        "image":"img/Breakfast/breakfast2.png",
+        "strMeal": "Breakfast sandwich",
+        "strCategory":"breakfast",
+        "strPrice":"9.99$",
+        "strInstructions": "Take a large pot or wok, big enough to cook all the chicken, and heat the oil in it. Once the oil is hot, add sliced onion and fry them."
+    },
+    {
+        "idMeal": "3",
+        "image":"img/Breakfast/breakfast3.png",
+        "strMeal": "Baked Chicken",
+        "strCategory":"breakfast",
+        "strPrice":"10.99$",
+        "strInstructions": "Take a large pot or wok, big enough to cook all the chicken, and heat the oil in it. Once the oil is hot, add sliced onion and fry them."
+    },
+    {
+        "idMeal": "4",
+        "image":"img/Breakfast/breakfast4.png",
+        "strMeal": "Eggs Benedict",
+        "strCategory":"breakfast",
+        "strPrice":"8.99$",
+        "strInstructions": "Take a large pot or wok, big enough to cook all the chicken, and heat the oil in it. Once the oil is hot, add sliced onion and fry them."
+    },
+    {
+        "idMeal": "5",
+        "image":"img/Breakfast/breakfast5.png",
+        "strMeal": "Toast Croissant Fried egg",
+        "strCategory":"breakfast",
+        "strPrice":"19.99$",
+        "strInstructions": "Take a large pot or wok, big enough to cook all the chicken, and heat the oil in it. Once the oil is hot, add sliced onion and fry them."
+    },
+    {
+        "idMeal": "6",
+        "image":"img/Breakfast/breakfast6.png",
+        "strMeal": "Full BreakfastFried Egg Toast Brunch",
+        "strCategory":"breakfast",
+        "strPrice":"3.99$",
+        "strInstructions": "Take a large pot or wok, big enough to cook all the chicken, and heat the oil in it. Once the oil is hot, add sliced onion and fry them."
+    },
+    {
+        "idMeal": "7",
+        "image":"img/lunch/lunch1.png",
+        "strMeal": "Healthy Meal Plan",
+        "strCategory":"Lunch",
+        "strPrice":"23.99$",
+        "strInstructions": "Take a large pot or wok, big enough to cook all the chicken, and heat the oil in it. Once the oil is hot, add sliced onion and fry them."
+    },
+    {
+        "idMeal": "8",
+        "image":"img/lunch/lunch2.png",
+        "strMeal": "Fried Chicken Bento",
+        "strCategory":"Lunch",
+        "strPrice":"9.99$",
+        "strInstructions": "Take a large pot or wok, big enough to cook all the chicken, and heat the oil in it. Once the oil is hot, add sliced onion and fry them."
+    },
+    {
+        "idMeal": "9",
+        "image":"img/lunch/lunch3.png",
+        "strMeal": "Tarragon Rubbed Salmon",
+        "strCategory":"Lunch",
+        "strPrice":"6.99$",
+        "strInstructions": "Take a large pot or wok, big enough to cook all the chicken, and heat the oil in it. Once the oil is hot, add sliced onion and fry them."
+    },
+    {
+        "idMeal": "10",
+        "image":"img/lunch/lunch3.png",
+        "strMeal": "Indian Lunch",
+        "strCategory":"Lunch",
+        "strPrice":"8.99$",
+        "strInstructions": "Take a large pot or wok, big enough to cook all the chicken, and heat the oil in it. Once the oil is hot, add sliced onion and fry them."
+    },
+    {
+        "idMeal": "11",
+        "image":"img/lunch/lunch3.png",
+        "strMeal": "Beaf Steak",
+        "strCategory":"Lunch",
+        "strPrice":"15.99$",
+        "strInstructions": "Take a large pot or wok, big enough to cook all the chicken, and heat the oil in it. Once the oil is hot, add sliced onion and fry them."
+    },
+    {
+        "idMeal": "12",
+        "image":"img/lunch/lunch3.png",
+        "strMeal": "Honey Soy Glazed Salmon with Peppers",
+        "strCategory":"Lunch",
+        "strPrice":"7.99$",
+        "strInstructions": "Take a large pot or wok, big enough to cook all the chicken, and heat the oil in it. Once the oil is hot, add sliced onion and fry them."
+    },
+    {
+        "idMeal": "13",
+        "image":"img/Dinner/dinner1.png",
+        "strMeal": "Salmon with Grapefruit and Lentil Salad",
+        "strCategory":"Dinner",
+        "strPrice":"6.99$",
+        "strInstructions": "Take a large pot or wok, big enough to cook all the chicken, and heat the oil in it. Once the oil is hot, add sliced onion and fry them."
+    },
+    {
+        "idMeal": "14",
+        "image":"img/Dinner/dinner2.png",
+        "strMeal": "Lemony Salmon Piccata",
+        "strCategory":"Dinner",
+        "strPrice":"10.99$",
+        "strInstructions": "Take a large pot or wok, big enough to cook all the chicken, and heat the oil in it. Once the oil is hot, add sliced onion and fry them."
+    },
+    {
+        "idMeal": "15",
+        "image":"img/Dinner/dinner3.png",
+        "strMeal": "Pork Tenderloin with Quinoa Pilaf",
+        "strCategory":"Dinner",
+        "strPrice":"12.99$",
+        "strInstructions": "Take a large pot or wok, big enough to cook all the chicken, and heat the oil in it. Once the oil is hot, add sliced onion and fry them."
+    },
+    {
+        "idMeal": "16",
+        "image":"img/Dinner/dinner4.png",
+        "strMeal": "French fries with cheese",
+        "strCategory":"Dinner",
+        "strPrice":"8.99$",
+        "strInstructions": "Take a large pot or wok, big enough to cook all the chicken, and heat the oil in it. Once the oil is hot, add sliced onion and fry them."
+    },
+    {
+        "idMeal": "17",
+        "image":"img/Dinner/dinner5.png",
+        "strMeal": "Garlic Butter Baked Salmon",
+        "strCategory":"Dinner",
+        "strPrice":"6.99$",
+        "strInstructions": "Take a large pot or wok, big enough to cook all the chicken, and heat the oil in it. Once the oil is hot, add sliced onion and fry them."
+    },
+    {
+        "idMeal": "18",
+        "image":"img/Dinner/dinner6.png",
+        "strMeal": "Baked Chicken",
+        "strCategory":"Dinner",
+        "strPrice":"9.99$",
+        "strInstructions": "Take a large pot or wok, big enough to cook all the chicken, and heat the oil in it. Once the oil is hot, add sliced onion and fry them."
+    }
+
+]
