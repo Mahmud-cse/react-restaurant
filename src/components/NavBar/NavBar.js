@@ -6,21 +6,6 @@ import './NavBar.css';
 
 const NavBar = () => {
     return (
-        // <div>
-        //     <Navbar bg="dark">
-        //       <Container>
-        //         <Navbar.Brand href="#home">
-        //           <img
-        //             src={image}
-        //             width="180"
-        //             className="d-inline-block align-top"
-        //             alt="React Bootstrap logo"
-        //           />
-        //         </Navbar.Brand>
-        //       </Container>
-        //       <i class="fas fa-shopping-cart"></i>
-        //       </Navbar>
-        // </div>
         <div>
         <Navbar className="fixed-top" style={{backgroundColor:"#FCF4E0"}}  collapseOnSelect expand="lg">
           {/* container */}

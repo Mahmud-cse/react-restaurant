@@ -11,10 +11,10 @@ const About = () => {
     return (
         <div>
             <div  style={{marginLeft:"20px",marginBottom:"50px"}}>
-                    <Container style={{marginLeft:"70px"}}>
+                    <div style={{marginLeft:"70px"}}>
                       <h2>Why you choose us</h2>
                       <p>While eating at a restaurant is an enjoyable and <br /> most individuals and families prepare their meals at home.</p>
-                    </Container>
+                    </div>
                     <br />
                     <br />
                     <br />

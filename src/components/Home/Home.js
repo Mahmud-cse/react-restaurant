@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button, Container, Form, FormControl, Row } from 'react-bootstrap';
+import {Button, Container, Form, Row } from 'react-bootstrap';
 import About from '../About/About';
 import Home2 from '../Home2/Home2';
 import './Home.css';
@@ -7,17 +7,17 @@ import './Home.css';
 const Home = () => {
     return (
         <>
-            <div  className="custom">
+            <div className="customHome">
                 <Container fluid>
                     <Row>
-                        <h2>Search Your Most Favourite Food Over Here</h2>
+                        <h2>Search Your Most Favourite Food</h2>
                         <div className="mt-3 custom0">
                             <Form className="d-flex">
-                                <div className=" custom1">
-                                <Form.Control className="rounded-pill" type="email" placeholder="Enter email" />
+                                <div className=" ">
+                                <Form.Control className="rounded-pill custom1" type="email" placeholder="Enter email" />
                                 </div>
                                 <Button variant="danger" className="rounded-pill custom2">Search</Button>
-                              </Form>
+                            </Form>
                         </div>
                     </Row>
                 </Container>
