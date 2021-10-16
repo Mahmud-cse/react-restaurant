@@ -3,7 +3,7 @@
         "idMeal": "1",
         "image":"img/Breakfast/breakfast1.png",
         "strMeal": "Bagel and cream cheese",
-        "strCategory":"breakfast",
+        "strCategory":"Breakfast",
         "strPrice":"6.99$",
         "strInstructions": "Take a large pot or wok, big enough to cook all the chicken, and heat the oil in it. Once the oil is hot, add sliced onion and fry them."
     },
@@ -11,7 +11,7 @@
         "idMeal": "2",
         "image":"img/Breakfast/breakfast2.png",
         "strMeal": "Breakfast sandwich",
-        "strCategory":"breakfast",
+        "strCategory":"Breakfast",
         "strPrice":"9.99$",
         "strInstructions": "Take a large pot or wok, big enough to cook all the chicken, and heat the oil in it. Once the oil is hot, add sliced onion and fry them."
     },
@@ -19,7 +19,7 @@
         "idMeal": "3",
         "image":"img/Breakfast/breakfast3.png",
         "strMeal": "Baked Chicken",
-        "strCategory":"breakfast",
+        "strCategory":"Breakfast",
         "strPrice":"10.99$",
         "strInstructions": "Take a large pot or wok, big enough to cook all the chicken, and heat the oil in it. Once the oil is hot, add sliced onion and fry them."
     },
@@ -27,7 +27,7 @@
         "idMeal": "4",
         "image":"img/Breakfast/breakfast4.png",
         "strMeal": "Eggs Benedict",
-        "strCategory":"breakfast",
+        "strCategory":"Breakfast",
         "strPrice":"8.99$",
         "strInstructions": "Take a large pot or wok, big enough to cook all the chicken, and heat the oil in it. Once the oil is hot, add sliced onion and fry them."
     },
@@ -35,7 +35,7 @@
         "idMeal": "5",
         "image":"img/Breakfast/breakfast5.png",
         "strMeal": "Toast Croissant Fried egg",
-        "strCategory":"breakfast",
+        "strCategory":"Breakfast",
         "strPrice":"19.99$",
         "strInstructions": "Take a large pot or wok, big enough to cook all the chicken, and heat the oil in it. Once the oil is hot, add sliced onion and fry them."
     },
@@ -43,7 +43,7 @@
         "idMeal": "6",
         "image":"img/Breakfast/breakfast6.png",
         "strMeal": "Full BreakfastFried Egg Toast Brunch",
-        "strCategory":"breakfast",
+        "strCategory":"Breakfast",
         "strPrice":"3.99$",
         "strInstructions": "Take a large pot or wok, big enough to cook all the chicken, and heat the oil in it. Once the oil is hot, add sliced onion and fry them."
     },
@@ -73,7 +73,7 @@
     },
     {
         "idMeal": "10",
-        "image":"img/lunch/lunch3.png",
+        "image":"img/lunch/lunch4.png",
         "strMeal": "Indian Lunch",
         "strCategory":"Lunch",
         "strPrice":"8.99$",
@@ -81,7 +81,7 @@
     },
     {
         "idMeal": "11",
-        "image":"img/lunch/lunch3.png",
+        "image":"img/lunch/lunch5.png",
         "strMeal": "Beaf Steak",
         "strCategory":"Lunch",
         "strPrice":"15.99$",
@@ -89,7 +89,7 @@
     },
     {
         "idMeal": "12",
-        "image":"img/lunch/lunch3.png",
+        "image":"img/lunch/lunch6.png",
         "strMeal": "Honey Soy Glazed Salmon with Peppers",
         "strCategory":"Lunch",
         "strPrice":"7.99$",
