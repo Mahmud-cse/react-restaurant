@@ -6,7 +6,7 @@ const FoodList = (props) => {
     return (
     
                 <Col md={4} className="gap-5 mb-5">
-                    <Card>
+                    <Card className="rounded-3">
                             <Card.Img className="mt-3" variant="top" src={image} style={{width:"50%",height:"50%",margin:"auto"}}/>
                             <Card.Body>
                               <Card.Title>{strMeal}</Card.Title>
@@ -14,9 +14,10 @@ const FoodList = (props) => {
                                 {strInstructions}
                               </Card.Text>
                             </Card.Body>
-                            <Card.Footer className="mx-auto mb-3">
-                                <Button variant="outline-primary">{strPrice}</Button>
-                            </Card.Footer>
+                            <div className="mx-auto mb-3">
+                              <b  style={{textAlign:"center",fontSize:"20px"}}><p>{strPrice}</p></b>
+                              <Button variant="outline-primary">Order Now</Button>
+                            </div>
                     </Card>
                 </Col>
     );
