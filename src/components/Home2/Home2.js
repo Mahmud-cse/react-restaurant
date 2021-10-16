@@ -14,7 +14,10 @@ const Home2 = () => {
     },[]);
 
     useEffect(()=>{
-        setItems(food);
+        const updatedItems= food.filter((data)=>{
+            return data.strCategory==='Breakfast';
+        });
+        setItems(updatedItems);
     },[food]);
 
     const filterItem=(value)=>{

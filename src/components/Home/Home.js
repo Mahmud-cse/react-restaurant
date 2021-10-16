@@ -1,5 +1,6 @@
 import React from 'react';
 import {Button, Container, Form, FormControl, Row } from 'react-bootstrap';
+import About from '../About/About';
 import Home2 from '../Home2/Home2';
 import './Home.css';
 
@@ -30,6 +31,11 @@ const Home = () => {
             {/* Second part */}
             <div className="mt-5">
                 <Home2></Home2>
+            </div>
+
+            {/* About us */}
+            <div className="mt-5">
+                <About></About>
             </div>
         </>
     );
