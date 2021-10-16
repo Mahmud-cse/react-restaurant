@@ -32,16 +32,13 @@ const Login = () => {
                         <Link to="/register" className="custom-link">Forget Password</Link>
                     </p> */}
                     <div style={{marginTop:"20px"}}>
-                    <p>Don't Have an Account? <Link to="/register"><button type="button" className="btn btn-primary">Sign Up Now</button></Link></p>
+                    <p>Don't Have an Account? <Link to="/signup"><button type="button" className="btn btn-primary">Sign Up Now</button></Link></p>
                     </div>
                     <div style={{textAlign:"center",margin:"25px"}}>---------------or---------------</div>
                     <button onClick={''} type="button" className="btn btn-primary">Google Sign In</button>
                     <button type="button" className="btn btn-success m-3">Github Sign In</button>
                 </form>
             </div>
-        </div>
-        <div  style={{textAlign:"center"}}>
-            
         </div>
     </div>
     );

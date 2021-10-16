@@ -1,0 +1,16 @@
+.customSignUp {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.custom-link {
+    text-decoration: none;
+}
+
+#customLogin3 {
+    color: white;
+    background-color: #23394A;
+}
