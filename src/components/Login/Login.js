@@ -36,7 +36,13 @@ const Login = () => {
                     <p>Don't Have an Account? <Link to="/signup" style={{textDecoration:"none"}}>Sign Up Now</Link></p>
                     </div>
                     <div style={{textAlign:"center",margin:"25px"}}><b>Or</b></div>
-                    <GoogleLoginButton></GoogleLoginButton>
+                    
+
+                    <div>
+                        <a href="/#" class="google btn">
+                            <i class="fab fa-google"></i> Login with Google
+                        </a>
+                    </div>
                 </form>
             </div>
         </div>

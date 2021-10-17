@@ -7,7 +7,7 @@ import './NavBar.css';
 const NavBar = () => {
     return (
         <div>
-        <Navbar className="fixed-top" style={{backgroundColor:"#FCF4E0"}}  collapseOnSelect expand="lg">
+        <Navbar className="fixed-top" style={{backgroundColor:"#CECFD4"}}  collapseOnSelect expand="lg">
           {/* container */}
           <Container>
           <Navbar.Brand href="/home">

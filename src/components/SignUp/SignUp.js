@@ -40,7 +40,13 @@ const SignUp = () => {
                     Already Registered? <Link to="/login" className="custom-link">Log in</Link>
                 </p>
                 <div style={{textAlign:"center",margin:"25px"}}><b>Or</b></div>
-                <GoogleLoginButton></GoogleLoginButton>
+
+
+                <div>
+                <a href="/#" class="google btn">
+                    <i class="fab fa-google"></i> Login with Google
+                </a>
+                </div>
             </form>
         </div>
     </div>
