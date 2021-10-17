@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { GoogleLoginButton } from "react-social-login-buttons";
 import './Login.css';
 
 const Login = () => {
     return (
         <div>
-        <div className="container customLogin">
+        <div className="container customLogin p-5">
             <div id="customLogin2">
             <form className="p-5">
                     <h3>Sign In</h3>
@@ -32,11 +33,10 @@ const Login = () => {
                         <Link to="/register" className="custom-link">Forget Password</Link>
                     </p> */}
                     <div style={{marginTop:"20px"}}>
-                    <p>Don't Have an Account? <Link to="/signup"><button type="button" className="btn btn-primary">Sign Up Now</button></Link></p>
+                    <p>Don't Have an Account? <Link to="/signup" style={{textDecoration:"none"}}>Sign Up Now</Link></p>
                     </div>
-                    <div style={{textAlign:"center",margin:"25px"}}>---------------or---------------</div>
-                    <button onClick={''} type="button" className="btn btn-primary">Google Sign In</button>
-                    <button type="button" className="btn btn-success m-3">Github Sign In</button>
+                    <div style={{textAlign:"center",margin:"25px"}}><b>Or</b></div>
+                    <GoogleLoginButton></GoogleLoginButton>
                 </form>
             </div>
         </div>

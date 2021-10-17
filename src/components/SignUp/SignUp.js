@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { GoogleLoginButton } from "react-social-login-buttons";
 import './SignUp.css';
 
 const SignUp = () => {
     return (
-        <div id="signupSection" className="container customSignUp mb-5">
-        <div>
+        <div id="signupSection" className="container customSignUp">
+        <div className="p-5">
         <form className="p-5" id="customLogin3">
                 <h3>Register</h3>
 
@@ -38,9 +39,8 @@ const SignUp = () => {
                 <p className="forgot-password text-right">
                     Already Registered? <Link to="/login" className="custom-link">Log in</Link>
                 </p>
-                <div style={{textAlign:"center",margin:"25px"}}>---------------or---------------</div>
-                <button onClick={''} type="button" className="btn btn-primary">Google Sign In</button>
-                <button type="button" className="btn btn-success m-3">Github Sign In</button>
+                <div style={{textAlign:"center",margin:"25px"}}><b>Or</b></div>
+                <GoogleLoginButton></GoogleLoginButton>
             </form>
         </div>
     </div>
